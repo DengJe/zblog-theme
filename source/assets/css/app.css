@@ -1,0 +1,533 @@
+/* Write your styles */
+body{
+    background-color: transparent;
+
+
+}
+html{
+    color:#333;
+    background: #f4f4f4;
+}
+@media only screen and (min-width: 641px) {
+    [class*="am-u-"] {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+ul, ol {
+    padding-left: 1rem;
+}
+/*nav*/
+.navbar li a{
+    font-size: 17px;
+    font-style: normal;
+    color: #333;
+    font-weight: 700;
+    font-family: Optima-Regular,PingFang SC,Microsoft YaHei,WenQuanYi Micro Hei,Arial,Helvetica,sans-serif;
+}
+.category-lists a{
+    color: black;
+    z-index: 9999;
+
+}
+.am-topbar-opacity{
+    background-color: rgba(255,255,255,.9);
+    z-index: 10;
+}
+
+.am-topbar .am-text-ir {
+    /*display: block;*/
+    /*margin-right: 10px;*/
+    /*height: 50px;*/
+    /*width: 125px;*/
+    /*-webkit-background-size: 125px 24px;*/
+    /*background-size: 125px 24px;*/
+}
+
+.am-slider-default .am-control-nav{
+    bottom: 15px;
+}
+
+/*notice*/
+.notice {
+    width: 100%;/*单行显示，超出隐藏*/
+    height: 35px;/*固定公告栏显示区域的高度*/
+    /*padding: 0 30px;*/
+    /*background-color: #b3effe;*/
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+
+}
+.notice ul{
+    padding: 0px;
+
+}
+.notice ul li {
+    list-style: none;
+    line-height: 35px;
+    /*以下为了单行显示，超出隐藏*/
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*endnotice*/
+/*endnav*/
+/*img*/
+
+
+.img-one{
+    height: 160px;
+    width: 100%;
+}
+.img-two{
+    height: 160px;
+    width: 100%;
+}
+.img-three{
+    height: 160px;
+    width: 100%;
+}
+.slide-img-title{
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+    font-size: 22px;
+    color:#fff;
+}
+
+.slide-img .img-three-title{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 18px;
+    color:#fff;
+}
+.slide-img img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.slide-img img:hover{
+    transform: scale(1.2);
+}
+.slide-img .img-two-title{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    color:#fff;
+}
+.slide-img .img-one-title{
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    color:#fff;
+}
+.cagtegory-box{
+    border-radius: 2px;
+    background-color: #fff;
+    height: 100%;
+}
+/*article*/
+.article-guide{
+    clear: both;
+    padding: 0px;
+    color: #64717f;
+    text-shadow: -1px 1px 0 rgba(125,139,153,0.1);
+    overflow: hidden;
+    padding-left: 3px;
+
+}
+.guide-box{
+    box-shadow: 0 1px 3px rgba(26,26,26,.2);
+    background: #fff;
+    border-radius: 2px;
+}
+.guide-img{
+    width: 100%;
+
+}
+.article-guide .title-guide{
+    width: -webkit-calc(100% - 155px);
+    width: -moz-calc(100% - 155px);
+    width: calc(100% - 155px);
+    clear: both;
+    padding-left: 3px;
+    font-size: 16px;
+    line-height: 22px;
+    white-space: nowrap;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    color: #55606f;
+    outline: none;
+}
+.article-guide li:hover{
+    background-color: rgb(205, 205, 205);
+}
+.box{
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(26,26,26,.2);
+    background-color: #fff;
+    height: 100%;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+
+}
+.box:hover{
+    box-shadow: 3px 3px 6px #e3e3e3;
+}
+.shadow-box{
+    overflow: hidden;
+    margin: 10px 0px;
+}
+.post-meta{
+    position: absolute;
+    bottom: -100px;
+    right: 0px;
+}
+.post-article{
+    border-radius: 2px;
+    overflow: hidden;
+    /*padding: 5px 5px;*/
+    margin-bottom: 19px;
+
+}
+.post-article-two .pic{
+    width: 100%;
+    height: 290px;
+    border-radius: 2px;
+}
+.post-article-two .post-title a{
+    font-size: 24px;
+    color: #000;
+}
+.post-article-two .post-title a:hover{
+    color: #1E9FFF;
+}
+.post-article-two img{
+    cursor: pointer;
+    transition: all 0.6s;
+    width: 100%;
+    height: 290px;
+    border-radius: 2px;
+}
+
+.post-article-two:hover img{
+    transform: scale(1.2);
+}
+.post-article-two  .post-intro{
+    font-size: 15px;
+    color:#666;
+    line-height: 29px;
+    overflow: hidden;
+}
+.post-article-two .post-category a{
+    color: gray;
+}
+.post-article-three .post-title a{
+    font-size: 24px;
+    color: #000;
+}
+.post-article-three  .post-intro{
+    font-size: 15px;
+    color:#666;
+    line-height: 29px;
+    overflow: hidden;
+}
+.post-article-three .post-author a{
+    color: #404040;
+    font-size: 13px;
+}
+.post-article-three .post-category a{
+    color: gray;
+}
+
+.post-article .post-category a{
+    color: gray;
+}
+.post-article:first-child{
+    margin-top: 0px;
+}
+/*.post-article img{*/
+    /*cursor: pointer;*/
+    /*transition: all 0.6s;*/
+    /*max-width: 100%;*/
+/*}*/
+/*.post-article:hover img{*/
+
+    /*transform: translate3d(+10px,0,0);*/
+    /*width: calc(100% + 10px);*/
+
+
+/*}*/
+
+.post-article .pic{
+    width: 95%;
+    height: 180px;
+
+}
+.post-article .pic-box{
+    width: 240px;
+
+    height: 160px;
+    overflow: hidden;
+}
+.pic-box{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.post-title a{
+    font-size: 24px;
+    overflow: hidden;
+    color: #000;
+}
+.post-title a:hover{
+   color: #1E9FFF;
+}
+
+.post-content{
+    overflow: hidden;
+}
+.post-content .article-pic img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.post-content .article-pic img:hover{
+    transform: scale(1.2);
+}
+.tags ul li:first-child {
+    float: left;
+}
+.tags ul li:not(:first-child){
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    background-color: rgb(23, 23, 23);
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+    margin: 0px 6px 6px 0px;
+    padding: 2px 8px;
+    display: block;
+    float: left;
+    transition: all 0.1s ease 0s;
+
+}
+.tags ul li:not(:first-child) a{
+    color: rgb(255, 255, 255);
+
+}
+
+.post-content-info .post-title{
+    font-size: 34px;
+    font-weight: 360;
+}
+.post-intro{
+    font-size: 15px;
+    color:#666;
+    height: 112px;
+    line-height: 29px;
+    overflow: hidden;
+}
+
+.cate-guide .post-intro{
+    font-size: 13px;
+    color:#666;
+    height: 80px;
+    line-height: 29px;
+}
+.post-article .info span{
+
+}
+.post-content .post-intro{
+    font-size: 15px;
+}
+.post-content .post-avatar{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -90px;
+    float: left;
+    z-index: 999;
+}
+.post-content .post-author{
+    position: absolute;
+    top: -90px;
+    left: 70px;
+    color:white;
+    z-index: 999;
+}
+.post-content .post-category{
+    position: absolute;
+    top: -65px;
+    left: 70px;
+    color:white;
+    z-index: 999;
+}
+.post-content .post-date{
+    position: absolute;
+    top: -40px;
+    left: 70px;
+    color:white;
+    z-index: 999;
+}
+
+
+.guide-article img{
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.guide-article img:hover{
+    transform: scale(1.2);
+
+}
+.am-titlebar{
+    margin-top: 0px;
+
+}
+.am-titlebar .am-titlebar-title{
+    color: black;
+}
+.article_copyright{
+    background-color: #f7f7f7;
+    color: #535353;
+    font-size: 14px;
+    vertical-align: top;
+    -webkit-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px #B6B6B6;
+    box-shadow: 0 2px 4px #EBEDF1;
+}
+.article_copyright ul{
+    padding: 0px;
+    margin: 1.6em 0px;
+}
+.pay-and-share{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.am-u-md-4{
+    margin: 0px;
+    padding: 0px;
+}
+.four-share .xf_weibo span {
+    position: absolute;
+    left: 18%;
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url(../../../style/images/weibo.png);
+}
+.four-share .xf_qqqq span {
+    position: absolute;
+    left: 34%;
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url(../../../style/images/qqqq.png);
+}
+.four-share .xf_qzone span {
+    position: absolute;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url(../../../style/images/qzone.png);
+}
+.four-share .xf_txweibo span {
+    position: absolute;
+    left: 66%;
+    width: 46px;
+    height: 46px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url(../../../style/images/txweibo.png);
+}
+
+
+/*footer*/
+.footer{
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,.05);
+    position: relative;
+
+}
+
+
+.link .friends-link li{
+    font-size:14px;
+    margin:0 0 0 0;
+    padding:0.4em 0 0.4em 0.9em;
+    width:auto;
+    color: #90949c;
+    list-style-type:none;
+    float: left;
+}
+.link .friends-link li a{
+    color: #333;
+}
+.link .friends-link li a:hover{
+    color: #0084ff;
+}
+.footer .ipc a{
+    color: #90949c;
+    font-size: 14px;
+}
+.powered{
+    font-size: 13px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+.theme{
+    font-size: 13px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+.copyright{
+    font-size: 13px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+@media only screen and (max-width: 640px) {
+    .am-list-news-default .am-list-item-thumb-left .am-list-thumb,
+    .am-list-news-default .am-list-item-thumb-right .am-list-thumb {
+        max-height: 180px;
+        overflow: hidden;
+    }
+    .am-list-news-default .am-list-item-thumb-bottom-left .am-list-item-text,
+    .am-list-news-default .am-list-item-thumb-bottom-right .am-list-item-text {
+        -webkit-line-clamp: 3;
+        /* number of lines to show */
+        max-height: 3.9em;
+    }
+    .am-list-news-default .am-list-item-thumb-bottom-left .am-list-thumb,
+    .am-list-news-default .am-list-item-thumb-bottom-right .am-list-thumb {
+        max-height: 160px;
+        overflow: hidden;
+    }
+}
+
+/*文章图片*/
+@media only screen and (max-width:640px){
+    .post-article .pic{
+        width: 100%;
+        height: 156.2px;
+    }
+    .post-intro{
+        height: 100%;
+        line-height: 24px;
+    }
+}

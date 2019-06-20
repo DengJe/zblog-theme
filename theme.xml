@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<theme version="php">
+<id>pipyou</id>
+<name>皮皮柚主题</name>
+<url>http://www.pipyou.com/</url>
+<note>Z-Blog的皮皮柚主题</note>
+<description>Z-Blog的皮皮柚主题.www.pipyou.com皮皮柚制作</description>
+<path></path>
+<include>include.php</include>
+<level>1</level>
+<author>
+  <name>皮皮柚</name>
+  <email>luckyoupan@163.com</email>
+  <url>http://www.pipyou.com/</url>
+</author>
+<source>
+  <name>皮皮柚</name>
+  <email>luckyoupan@163.com</email>
+  <url>http://www.pipyou.com/</url>
+</source>
+<adapted>151603</adapted>
+<version>1.8</version>
+<pubdate>2019-02-18</pubdate>
+<modified>2019-02-27</modified>
+<price>100</price>
+<advanced>
+  <dependency></dependency>
+  <rewritefunctions></rewritefunctions>
+  <conflict></conflict>
+</advanced>
+<sidebars>
+  <sidebar1></sidebar1>
+  <sidebar2></sidebar2>
+  <sidebar3></sidebar3>
+  <sidebar4></sidebar4>
+  <sidebar5></sidebar5>
+</sidebars>
+</theme>
